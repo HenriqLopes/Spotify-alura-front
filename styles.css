@@ -7,15 +7,16 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
+    padding: 15px 0px 0px 5px;
     width: 300px;
 }
 
 .sidebar_navigation {
     background-color: #121212;
     border-radius: 8px; 
-    padding: 16px 0 0 16px;
+    padding: 5px 0px 0px 0px;
 }
+
 
 .sidebar_navigation a:hover {
     color: #ffffff;
@@ -30,6 +31,10 @@ body {
 
 .sidebar_navigation .logo img {
     width: 80px;
+}
+
+.sidebar_navigation span {
+    padding: 0px 5px 0px 0px;
 }
 
 .sidebar nav ul{
