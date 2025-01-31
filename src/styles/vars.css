@@ -2,8 +2,14 @@
     /* FONT */
     --font-dm-sans: "DM Sans", sans-serif;
 
-
     /* COLORS */
-    --bg-icon: #131313;
+    --full-black: #000;
+    --second-black: #131313;
+    --third-black: #121212;
     --bg-arrow-color: rgba(0,0,0,0.7);
+    --forth-black: #242424;
+    --first-gray: #b3b3b3;
+    --second-gray: #878787;
+    --third-gray: #a7a7a7;
+    --full-white: #ffff;
 }

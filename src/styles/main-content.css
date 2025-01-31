@@ -14,7 +14,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: var(--third-black);
 }
 
 .header_navigation .navigation {
@@ -33,7 +33,7 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: var(--bg-icon);
+    background: var(--second-black);
     background-color: var(--bg-arrow-color);
     border-radius: 50%;
     border: none;
@@ -51,7 +51,7 @@
     width: 500px;
     height: 48px;
     margin-left:8px;
-    background-color: #242424;
+    background-color: var(--forth-black);
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -69,8 +69,8 @@
 .header_search input {
     background: transparent;
     border: none;
-    padding: 0px 100px 0px 12px;
-    color: #ffff;
+    padding: 0px 120px 0px 12px;
+    color: var(--white-icons-outline);
     text-overflow: ellipsis; /* coloca a reticências quando a string fica muito grande*/
     overflow: hidden;
     white-space: nowrap; /*Não vai quebrar a linha quando o texto for muito grande*/
@@ -81,11 +81,11 @@
 }
 
 .header_login .subscribe {
-    color: #a7a7a7;
+    color: var(--third-gray);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 12px;
+    margin-right: 20px;
     border: none;
     cursor: pointer;
     transition: 0.3s;
@@ -94,16 +94,37 @@
 .header_login .login {
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--full-black);
     font-size: 16px;
     font-weight: 700;
-    background-color: white;
+    background-color: var(--full-white);
     border-radius: 40px;
     border: none;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.header_login .login:hover {
-    background-color: #f2f2f2;
+.navigation_section {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    background-color: var(--second-black);
+    border-radius: 10px;
+}
+
+.playlist-greeting {
+    margin: 24px;
+}
+
+.playlist-greeting #greeting {
+    color: var(--full-white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.playlist-greeting .greeting-subtitle {
+    color: var(--full-white);
+    font-size: 24px;
+    font-weight: 700;
 }
