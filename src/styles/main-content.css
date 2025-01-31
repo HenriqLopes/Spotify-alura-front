@@ -70,7 +70,7 @@
     background: transparent;
     border: none;
     padding: 0px 120px 0px 12px;
-    color: var(--white-icons-outline);
+    color: var(--full-white);
     text-overflow: ellipsis; /* coloca a reticências quando a string fica muito grande*/
     overflow: hidden;
     white-space: nowrap; /*Não vai quebrar a linha quando o texto for muito grande*/
